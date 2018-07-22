@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100&subset=latin-ext');
+
+/*minden oldalra ervenyes beallitasok*/
+
+html {
+    font-family: 'Roboto', sans-serif;
+    height: 100%;
+}
+
+body {
+    background-color: #FFF0A5;
+
+}
+
+.navbar {
+    background-color: rgb(218, 157, 101);
+    font-weight: 600;
+    font-size: 15px;
+    padding: 2px;
+    color: black;
+    margin-bottom: 10px;
+}
+
+.dropdown-menu {
+    background-color: rgb(218, 157, 101);
+}
+
+.dropdown-item:hover {
+    background-color: #FFF0A5;
+}
+
+/*galeriak*/
+
+.gallery {
+    margin: 10px 50px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.gallery img {
+    height: 150px;
+    padding: 5px;
+    filter: sepia(100%);
+    transition: 1s;
+}
+
+.gallery img:hover {
+    filter: sepia(0);
+    transform: scale(1.1);
+}
+
+
+
+
+
+
+
+
+.caro {
+    text-align: center;
+    justify-content: center;
+    /*background-color: rgb(170, 146, 130);*/
+    position: relative;
+
+}
+
+.carousel-caption h5 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    text-align: left;
+    background-color: rgba(128, 128, 128, .7);
+    width: 350px;
+    padding-left: 10px;
+}
+
+.pluszinfo {
+    padding: 10px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 600px;
+    text-align: center;
+    border: 1px solid;
+    box-shadow: 7px 10px darkgrey;
+    background-color: white;
+}
+
+
+
+.map {
+    border-radius: 15px;
+    margin: 10px;
+}
+
+
+.first-card {
+    padding: 10px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 600px;
+    text-align: center;
+    border: 1px solid;
+    box-shadow: 7px 10px darkgrey;
+}
